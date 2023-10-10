@@ -8,7 +8,8 @@ public class User {
 
     enum Gender {
         Male,
-        Female
+        Female,
+        None
     }
 
     User(String name, String surname, int age, Gender gender) {
@@ -16,6 +17,20 @@ public class User {
         this.surname = surname;
         this.age = age;
         this.gender = gender;
+    }
+
+    User(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+        this.age = 0;
+        this.gender = Gender.None;
+    }
+
+    User() {
+        this.name = "None";
+        this.surname = "None";
+        this.age = 0;
+        this.gender = Gender.None;
     }
 
     public String getName() {
