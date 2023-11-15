@@ -1,4 +1,4 @@
-package Lesson5;
+package Lesson5_6;
 
 public class Run {
     public static void main(String[] args) {
@@ -18,5 +18,7 @@ public class Run {
         director2.addWorker(worker4);
         director1.addWorker(director2);
         director2.toStringDirector();
+        director2.findWorker("Arsesha");
+        director1.findWorker("Arsesha");
     }
 }

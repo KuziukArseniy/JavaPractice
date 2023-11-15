@@ -1,4 +1,4 @@
-package Lesson5;
+package Lesson5_6;
 
 public class Worker extends Employee {
 

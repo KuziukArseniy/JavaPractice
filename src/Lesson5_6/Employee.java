@@ -1,6 +1,6 @@
-package Lesson5;
+package Lesson5_6;
 
-public abstract class Employee extends Person {
+public abstract class Employee extends Person implements FindWorker {
     private final int experience;
     private final int baseRate;
     private final prof prof;
@@ -31,7 +31,13 @@ public abstract class Employee extends Person {
     public void addWorker(Employee employee) {
         return;
     }
-    public void toStringDirector(){
+
+    public void toStringDirector() {
+        return;
+    }
+
+    @Override
+    public void findWorker(String name) {
         return;
     }
 }
