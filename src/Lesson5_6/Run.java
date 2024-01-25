@@ -1,5 +1,8 @@
 package Lesson5_6;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Run {
     public static void main(String[] args) {
         Employee director1 = new Director("Arseniy", "Kuziuk", 5, 5, Employee.prof.director);
